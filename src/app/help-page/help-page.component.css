@@ -1,0 +1,10 @@
+.helpBorder {
+    border-left: solid rgb(5, 32, 80) 6px;
+    padding-left: 2rem;
+}
+.bg-col-div{
+    background-color: rgb(6, 2, 19);
+}
+.bg-col-h1{
+    background-color: rgb(15, 13, 51);
+}

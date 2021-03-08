@@ -1,0 +1,171 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class AlphabetsService {
+  public brushColor = "#e0bac4"
+
+  image ="service image";
+
+  listOfNouns = [
+    {
+      "Alphabet":"அ",
+      "Audio":"assets/audio/Alphabets/01.mp3",
+      "Image":"assets/img/Alphabets/01.PNG"
+    },
+    {
+      "Alphabet":"ஆ",
+      "Audio":"assets/audio/Alphabets/02.mp3",
+      "Image":"assets/img/Alphabets/02.PNG"
+    },
+    {
+      "Alphabet":"இ",
+      "Audio":"assets/audio/Alphabets/03.mp3",
+      "Image":"assets/img/Alphabets/03.PNG"
+    },
+    {
+      "Alphabet":"ஈ",
+      "Audio":"assets/audio/Alphabets/04.mp3",
+      "Image":"assets/img/Alphabets/04.PNG"
+    },
+    {
+      "Alphabet":"உ",
+      "Audio":"assets/audio/Alphabets/05.mp3",
+      "Image":"assets/img/Alphabets/05.PNG"
+    },
+    {
+      "Alphabet":"ஊ",
+      "Audio":"assets/audio/Alphabets/06.mp3",
+      "Image":"assets/img/Alphabets/06.PNG"
+    },
+    {
+      "Alphabet":"எ",
+      "Audio":"assets/audio/Alphabets/07.mp3",
+      "Image":"assets/img/Alphabets/07.PNG"
+    },
+    {
+      "Alphabet":"ஏ",
+      "Audio":"assets/audio/Alphabets/08.mp3",
+      "Image":"assets/img/Alphabets/08.PNG"
+    },
+    {
+      "Alphabet":"ஐ",
+      "Audio":"assets/audio/Alphabets/09.mp3",
+      "Image":"assets/img/Alphabets/09.PNG"
+    },
+    {
+      "Alphabet":"ஒ",
+      "Audio":"assets/audio/Alphabets/10.mp3",
+      "Image":"assets/img/Alphabets/10.PNG"
+    },
+    {
+      "Alphabet":"ஓ",
+      "Audio":"assets/audio/Alphabets/11.mp3",
+      "Image":"assets/img/Alphabets/11.PNG"
+    },
+    {
+      "Alphabet":"ஒள",
+      "Audio":"assets/audio/Alphabets/12.mp3",
+      "Image":"assets/img/Alphabets/12.PNG"
+    }
+  ]
+
+  listOfConsonents =[
+    {
+      "Alphabet":"க்",
+      "Audio":"assets/audio/Alphabets/13.mp3",
+      "Image":"assets/img/Alphabets/13.PNG"
+    },
+    {
+      "Alphabet":"ங்",
+      "Audio":"assets/audio/Alphabets/14.mp3",
+      "Image":"assets/img/Alphabets/14.PNG"
+    },
+    {
+      "Alphabet":"ச்",
+      "Audio":"assets/audio/Alphabets/15.mp3",
+      "Image":"assets/img/Alphabets/15.PNG"
+    },
+    {
+      "Alphabet":"ஞ்",
+      "Audio":"assets/audio/Alphabets/16.mp3",
+      "Image":"assets/img/Alphabets/16.PNG"
+    },
+    {
+      "Alphabet":"ட்",
+      "Audio":"assets/audio/Alphabets/17.mp3",
+      "Image":"assets/img/Alphabets/17.PNG"
+    },
+    {
+      "Alphabet":"ண் ",
+      "Audio":"assets/audio/Alphabets/18.mp3",
+      "Image":"assets/img/Alphabets/18.PNG"
+    },
+    {
+      "Alphabet":"த்",
+      "Audio":"assets/audio/Alphabets/19.mp3",
+      "Image":"assets/img/Alphabets/19.PNG"
+    },
+    {
+      "Alphabet":"ந்",
+      "Audio":"assets/audio/Alphabets/20.mp3",
+      "Image":"assets/img/Alphabets/20.PNG"
+    },
+    {
+      "Alphabet":"ப்",
+      "Audio":"assets/audio/Alphabets/21.mp3",
+      "Image":"assets/img/Alphabets/21.PNG"
+    },
+    {
+      "Alphabet":"ம்",
+      "Audio":"assets/audio/Alphabets/22.mp3",
+      "Image":"assets/img/Alphabets/22.PNG"
+    },
+    {
+      "Alphabet":"ய்",
+      "Audio":"assets/audio/Alphabets/23.mp3",
+      "Image":"assets/img/Alphabets/23.PNG"
+    },
+    {
+      "Alphabet":"ர்",
+      "Audio":"assets/audio/Alphabets/24.mp3",
+      "Image":"assets/img/Alphabets/24.PNG"
+    },
+    {
+      "Alphabet":"ல்",
+      "Audio":"assets/audio/Alphabets/25.mp3",
+      "Image":"assets/img/Alphabets/25.PNG"
+    },
+    {
+      "Alphabet":"வ்",
+      "Audio":"assets/audio/Alphabets/26.mp3",
+      "Image":"assets/img/Alphabets/26.PNG"
+    },
+    {
+      "Alphabet":"ழ்",
+      "Audio":"assets/audio/Alphabets/27.mp3",
+      "Image":"assets/img/Alphabets/27.PNG"
+    },
+    {
+      "Alphabet":"ள்",
+      "Audio":"assets/audio/Alphabets/28.mp3",
+      "Image":"assets/img/Alphabets/28.PNG"
+    },
+    {
+      "Alphabet":"ற்",
+      "Audio":"assets/audio/Alphabets/29.mp3",
+      "Image":"assets/img/Alphabets/29.PNG"
+    },
+    {
+      "Alphabet":"ன்",
+      "Audio":"assets/audio/Alphabets/30.mp3",
+      "Image":"assets/img/Alphabets/30.PNG"
+    }]
+
+  constructor() { }
+
+  SetBrushColor(newColor){
+    this.brushColor = newColor;
+  }
+}

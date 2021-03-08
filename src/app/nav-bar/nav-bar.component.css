@@ -1,0 +1,71 @@
+.help {
+    color: white;
+    border: white 1px solid;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 1rem;
+}
+nav {
+    background-image: url(../../assets/img/nav-img1.jpg);
+}
+
+.help:hover {
+    color: brown;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.btn-color1 {
+    background-color: #F6454F;
+    color: white;
+}
+.btn-color1:hover{
+    color: white;
+}
+
+.btn-color2 {
+    background-color: #019031;
+}
+.btn-color2:hover{
+    color: white;
+}
+
+.btn-color3 {
+    background-color: #2B2B52;
+}
+.btn-color3:hover{
+    color: white;
+}
+
+.logoClass{
+    width: 5rem;     
+}
+.text-organization{
+    margin-bottom: 0;
+    background-color: blueviolet;
+}
+.active{
+    background-color: thistle;
+    color: black;
+}
+#smallHelp{
+    display: none;
+}
+.smallDisplay{
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+
+
+
+#smallHelp{
+    display: none;
+}
+#bigHelp{
+    display: none;
+}
+.smallDisplay{
+    display: inline;
+}
+
+}

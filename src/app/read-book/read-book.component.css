@@ -1,0 +1,62 @@
+
+.pageHead {
+    letter-spacing: 0.2rem;
+    font-family: 'Aclonica';
+    line-height: normal;
+    transition: transform 1s;
+    font-weight: 600;
+}
+
+.pagePara {
+    letter-spacing: 0.2rem;
+    font-family: 'Aladin';
+    line-height: 80%;
+}
+.pageDiv {
+    border-radius: 1rem;
+    border-color: #0651c9;
+    /* background-image: linear-gradient(to right, rgb(11, 86, 116),rgb(23, 109, 143),rgb(47, 154, 173)); */
+    /* background-color: rgb(3, 28, 39); */
+    background-color: #255eb9;
+    color: white;
+    width: 89%;
+    margin: 0 auto;
+}
+.pageBtn {
+    z-index: 1;
+    margin:auto;
+    width: 10rem;
+    height: 7rem;
+    position: relative;
+    transition: transform .2s
+}
+.bg-my{
+    background-color: #0a4261;
+}
+
+.pageBtn:hover {
+    -ms-transform-origin-x: 2rem;
+    cursor: pointer;
+    border: 3px white;
+    transform: scale(1.1);
+}
+.pageBtn:active{
+    transform: scale(1.3) rotate(10deg);
+    
+}
+
+.imgDisabled{
+    opacity: 0.5;
+}
+.imgDisabled:hover,.imgDisabled:active{
+    transform: scale(1)
+}
+.imgActivated{
+    opacity: 1;
+}
+
+@media only screen and (max-width :750px){
+    .pageBtn{
+        width: 33%;
+    }
+}

@@ -1,0 +1,58 @@
+
+<div id="board1">
+    <ng-whiteboard [color]="alphabetsService.brushColor" [size]="brushSize"></ng-whiteboard>
+</div>
+<div id="board2" class="text-white light-blue lighten-5 mt-0 text-center">
+    <span class="dot pink  darken-2 z-depth-1-half aniBig" (click)='ChangeColor("#c2185b")'></span>
+    <span class="dot teal lighten-2 z-depth-1-half aniBig" (click)='ChangeColor("#4db6ac")'></span>
+    <span class="dot orange darken-1 z-depth-1-half aniBig" (click)='ChangeColor("#fb8c00")'></span>
+    <span class="dot red darken-1 z-depth-1-half aniBig" (click)='ChangeColor("#e53935")'></span>
+    <br>
+    <div class="btn-group btn-group-toggle mb-1" data-toggle="buttons">
+        <label class="btn color-main active rounded-left" (click)='SetBrushSize("5px")'>
+            <input type="radio" name="options" id="option1" autocomplete="off" checked>
+            <h6 class="mb-0"><i class="fas fa-circle"></i></h6><span class="hideSmallScreen">சிறிய தூரிகை</span>
+        </label>
+        <label class="btn color-main rounded-right" (click)='SetBrushSize("10px")'>
+            <input type="radio" name="options" id="option2" autocomplete="off">
+            <h4 class="mb-0"><i class="fas fa-circle"></i></h4><span class="hideSmallScreen">பெரிய தூரிகை</span>
+        </label>
+    </div>
+    <br>
+
+    <button class=" color-main m-auto z-depth-1-half btn rounded-pill" (click)='Undo()'><i class="fas fa-undo"></i>
+        <span class="hideSmallScreen">முன்செல்</span></button>
+    <button class=" color-main m-auto z-depth-1-half btn rounded-pill" (click)='Play()'><i class="fas fa-volume-up"></i>
+        <span class="hideSmallScreen">உச்சரிப்பு</span></button>
+    <button class=" color-main m-auto z-depth-1-half btn rounded-pill" (click)='Redo()'><i class="fas fa-redo"></i>
+        <span class="hideSmallScreen">பின்செல்</span></button>
+    <button class=" color-main m-auto z-depth-1-half btn rounded-pill" (click)='Clear()'> <i class="fas fa-eraser"></i>
+        <span class="hideSmallScreen">அழி</span></button>
+</div>
+<hr>
+<div class="heading">
+    <h2 class="font-weight-bold">உயிர் எழுத்துக்கள்</h2>
+</div>
+<div class="d-flex  align-content-around text-center flex-wrap">
+    <div *ngFor="let letter of Nouns; let i = index">
+
+        <button class="btn color-main1 text-white flex-fill"
+            (click)="SetFiles(letter.Image,letter.Audio)">{{letter.Alphabet}}
+        </button>
+    </div>
+</div>
+<div class="heading">
+    <h2 class="font-weight-bold">மெய் எழுத்துக்கள்</h2>
+</div>
+<div class="d-flex  align-content-around text-center flex-wrap">
+    <div *ngFor="let letter of Consonents; let i = index">
+
+        <button class="btn color-main1 text-white flex-fill"
+            (click)="SetFiles(letter.Image,letter.Audio)">{{letter.Alphabet}}
+        </button>
+    </div>
+</div>
+<audio id="player" src="">
+    <source>
+</audio>
+ 

@@ -1,0 +1,163 @@
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* You can add global styles to this file, and also import other style files */
+
+/* common style for full page */
+
+body {
+    /* background: fixed;
+     background-image: url(assets/img/bgImg.jpg); 
+    background-size: auto;
+    background-position: center; */
+    background-color: #3c78da;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+.head {
+    /* background-color: #2B2B52; */
+    color: #fff;
+    background: none;
+}
+
+
+.bg-container {
+    background-color: rgba(255, 255, 255, 0.699);
+    color: rgb(0, 0, 0);
+}
+
+.btn-card {
+    border-radius: 50%;
+    background-color: #E71C23;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.readTxt {
+    padding: 0.5rem;
+    color: rgb(27, 41, 48);
+    /* background-color: rgba(217, 230, 247, 0.8); */
+    border: none;
+    border-radius: 1.1rem;
+    font-weight: 600;
+}
+
+/* Book page css */
+
+
+
+
+
+
+.imgPNG {
+    -webkit-filter: drop-shadow(3px 3px 0 rgb(2, 1, 26)) drop-shadow(-1px -1px 0 rgb(2, 1, 26));
+    filter: drop-shadow(3px 3px 0 rgb(2, 1, 26)) drop-shadow(-1px -1px 0 rgb(2, 1, 26));
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>Animation<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+@keyframes shake {
+    25% {
+        transform: rotate(3deg) translateZ(2px);
+    }
+    75% {
+        transform: rotate(-3deg) translateZ(-2px);
+    }
+}
+@keyframes bigBeat {
+    25% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(0.8);
+    }
+}
+
+
+.aniBigBeatIcon:hover .aniIcon{
+    animation: bigBeat 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.aniShake:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.aniRotateIcon .aniIcon {
+    transition-duration: 1.2s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+.aniRotateIcon:hover .aniIcon, .aniRotateIcon:focus .aniIcon {
+    transform: rotate(360deg);
+}
+
+.aniBigIcon .aniIcon {
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+.aniBigIcon:hover .aniIcon, .aniBigIcon:focus .aniIcon {
+    transform: scale(1.5);
+}
+.aniBig{
+    transition-duration: 1.3s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+.aniBig:hover{
+    transform: scale(1.2);
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .noDisplay {
+        display: none;
+    }
+    .help {
+        font-size: 1.7rem;
+        border: 0;
+        margin:auto;
+        display: block;
+    }
+
+
+    .homeTitle{
+        font-size: 1rem;
+    }
+}
+
+.page-bg{
+    padding: 3rem;
+    background-color: rgba(158, 211, 208, 0.815);
+}
+
+html, body { height: 100%; }
