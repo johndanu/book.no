@@ -1173,6 +1173,302 @@ export class LibraryService {
           pageAud: "assets/audio/Soolan-book-16/17.mp3"
         } 
       ]
+    },
+    {
+      id: "book18",
+      name: "Siruvanum Thaaniyangiyum",
+      category: "big",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/18.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/02.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/03.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/04.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/05.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/06.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/07.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/08.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/09.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/10.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/11.JPG",
+          pageAud: "assets/audio/siruvan-thaniyangi-18/10.mp3"
+        }
+      ]
+    },
+    {
+      id: "book19",
+      name: "Irandu Nanbargal",
+      category: "big",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/19.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/02.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/03.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/04.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/05.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/06.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/07.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/08.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/09.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/10.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/11.JPG",
+          pageAud: "assets/audio/Irandu-Nanbarkal-book-19/10.mp3"
+        }
+      ]
+    }, 
+    {
+      id: "book20",
+      name: "Irandu Nanbargal",
+      category: "big",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/20.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/02.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/03.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/04.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/05.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/06.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/07.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/08.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/09.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/10.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/11.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/12.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/11.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/13.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/12.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/14.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/13.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/15.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/14.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/16.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/17.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/16.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/18.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/17.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/19.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/18.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/20.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/19.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/21.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/20.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/22.JPG",
+          pageAud: "assets/audio/Kaadu-payanam-book-20/21.mp3"
+        }
+      ]
+    }, 
+    {
+      id: "book21",
+      name: "Ethirikal",
+      category: "big",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/21.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/02.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/03.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/04.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/05.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/06.JPG", 
+          pageAud: "assets/audio/Ethirikal-book-21/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/07.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/08.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/09.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/10.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/11.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/12.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/11.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/13.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/12.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/14.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/13.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/15.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/14.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/16.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/17.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/16.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/18.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/17.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/19.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/18.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/20.JPG",
+          pageAud: "assets/audio/Ethirikal-book-21/19.mp3"
+        }
+      ]
     }
   ]
   constructor() { }
