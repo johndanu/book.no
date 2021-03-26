@@ -1409,7 +1409,7 @@ export class LibraryService {
           pageAud: "assets/audio/Ethirikal-book-21/04.mp3"
         },
         {
-          pageImg: "assets/img/Book-pages/Ethirikal-book-21/06.JPG", 
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/06.jpg", 
           pageAud: "assets/audio/Ethirikal-book-21/05.mp3"
         },
         {
@@ -1467,6 +1467,60 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Ethirikal-book-21/20.JPG",
           pageAud: "assets/audio/Ethirikal-book-21/19.mp3"
+        }
+      ]
+    }, 
+    {
+      id: "book22",
+      name: "Enakku Ungalin Mel Evalavu Paasam Irukkirathu Theriuma? ",
+      category: "big",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/22.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/02.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/03.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/04.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/05.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/06.JPG", 
+          pageAud: "assets/audio/Paasam-theriuma-book-22/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/07.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/08.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/09.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/10.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/11.JPG",
+          pageAud: "assets/audio/Paasam-theriuma-book-22/10.mp3"
         }
       ]
     }
