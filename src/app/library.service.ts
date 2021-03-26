@@ -78,6 +78,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Veedu-book-1/16.jpg",
           pageAud: "assets/audio/Veedu-book-1/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -153,6 +157,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Kadatkarai-book-3/16.jpg",
           pageAud: "assets/audio/Kadatkarai-book-3/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -227,6 +235,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Pannai-book-4/16.jpg",
           pageAud: "assets/audio/Pannai-book-4/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -302,6 +314,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Pommai-book-5/16.jpg",
           pageAud: "assets/audio/Pommai-book-5/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -377,6 +393,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Vilaakal-book-6/16.jpg",
           pageAud: "assets/audio/Vilaakal-book-6/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -452,6 +472,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Vanathipoochi-book-7/16.jpg",
           pageAud: "assets/audio/Vanathipoochi-book-7/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -526,6 +550,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Palangal-book-8/16.jpg",
           pageAud: "assets/audio/Palangal-book-8/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -604,6 +632,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Thenai-book-9/17.jpg",
           pageAud: "assets/audio/Thenai-book-9/16.ogg"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -678,6 +710,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Amma-book-10/16.jpg",
           pageAud: "assets/audio/Amma-book-10/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -755,6 +791,10 @@ export class LibraryService {
         },
         {
           pageImg: "assets/img/Book-pages/Pookal-book-11/17.jpg",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
           pageAud: ""
         }
       ]
@@ -834,17 +874,21 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Paruvakaalam-book-12/17.jpg",
           pageAud: "assets/audio/Paruvakaalam-book-12/16.ogg"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }
     , 
     {
-      id: "book111",
+      id: "book13",
       name: "Penguin",
       category: "big",
       publishers: "Annai Poopathi",
       subHeading: "",
-      coverPage: "assets/img/Book_cover_page/111.jpg",
+      coverPage: "assets/img/Book_cover_page/13.jpg",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/Penguin-book-10/01.jpg",
@@ -898,6 +942,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Penguin-book-10/12.jpg",
           pageAud: "assets/audio/Penguin-book-10/12.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -946,6 +994,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Thozhil-book-14/08.jpg",
           pageAud: "assets/audio/Thozhil-book-14/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1014,6 +1066,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Kaaya-book-15/13.jpg",
           pageAud: "assets/audio/Kaaya-book-15/13.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1088,6 +1144,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Aadukudi-book-2/16.jpg",
           pageAud: "assets/audio/Aadukudi-book-2/16.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1171,7 +1231,11 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Soolan-book-16/17.jpg",
           pageAud: "assets/audio/Soolan-book-16/17.mp3"
-        } 
+        } ,
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
+        }
       ]
     },
     {
@@ -1225,6 +1289,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/11.JPG",
           pageAud: "assets/audio/siruvan-thaniyangi-18/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     },
@@ -1279,6 +1347,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/11.JPG",
           pageAud: "assets/audio/Irandu-Nanbarkal-book-19/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1377,6 +1449,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/22.JPG",
           pageAud: "assets/audio/Kaadu-payanam-book-20/21.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1467,6 +1543,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Ethirikal-book-21/20.JPG",
           pageAud: "assets/audio/Ethirikal-book-21/19.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }, 
@@ -1521,6 +1601,10 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/11.JPG",
           pageAud: "assets/audio/Paasam-theriuma-book-22/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
         }
       ]
     }
