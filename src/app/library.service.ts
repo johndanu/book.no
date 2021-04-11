@@ -10,7 +10,7 @@ export class LibraryService {
     {
       id: "book1",
       name: "Veedu",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/01.jpg",
@@ -85,11 +85,11 @@ export class LibraryService {
         }
       ]
     },
-    
+
     {
       id: "book3",
       name: "Kadatkarai",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/03.jpg",
@@ -167,7 +167,7 @@ export class LibraryService {
     {
       id: "book4",
       name: "Pannaimaram",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/04.jpg",
@@ -246,7 +246,7 @@ export class LibraryService {
     {
       id: "book5",
       name: "Pommai",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/05.jpg",
@@ -325,7 +325,7 @@ export class LibraryService {
     {
       id: "book6",
       name: "Vilaakal",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/06.jpg",
@@ -404,7 +404,7 @@ export class LibraryService {
     {
       id: "book7",
       name: "Vanathipoochi",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/07.jpg",
@@ -482,7 +482,7 @@ export class LibraryService {
     {
       id: "book8",
       name: "Palangal",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/08.jpg",
@@ -560,7 +560,7 @@ export class LibraryService {
     {
       id: "book9",
       name: "Thennai",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/09.jpg",
@@ -642,7 +642,7 @@ export class LibraryService {
     {
       id: "book10",
       name: "Amma",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/10.jpg",
@@ -720,7 +720,7 @@ export class LibraryService {
     {
       id: "book11",
       name: "Pookal",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/11.jpg",
@@ -802,7 +802,7 @@ export class LibraryService {
     {
       id: "book12",
       name: "Paruvakaalangal",
-      category: "small",
+      category: "stage1",
       publishers: "Annai Poopathi",
       subHeading: "Maanavar vaasithal Kaieadu",
       coverPage: "assets/img/Book_cover_page/12.jpg",
@@ -881,11 +881,11 @@ export class LibraryService {
         }
       ]
     }
-    , 
+    ,
     {
       id: "book13",
       name: "Penguin",
-      category: "big",
+      category: "stage2",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/13.jpg",
@@ -898,7 +898,7 @@ export class LibraryService {
           pageImg: "assets/img/Book-pages/Penguin-book-10/edited.jpg",
           pageAud: ""
         },
-        
+
         {
           pageImg: "assets/img/Book-pages/Penguin-book-10/02.jpg",
           pageAud: "assets/audio/Penguin-book-10/02.mp3"
@@ -948,11 +948,11 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book14",
       name: "Thozil",
-      category: "big",
+      category: "stage2",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/14.jpg",
@@ -1000,11 +1000,11 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book15",
       name: "Kaaya",
-      category: "big",
+      category: "stage2",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/15.jpg",
@@ -1072,11 +1072,11 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book16",
       name: "Aadukudi",
-      category: "big",
+      category: "stage2",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/02.jpg",
@@ -1150,11 +1150,11 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book17",
       name: "Soolan",
-      category: "big",
+      category: "stage2",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/16.jpg",
@@ -1231,7 +1231,7 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Soolan-book-16/17.jpg",
           pageAud: "assets/audio/Soolan-book-16/17.mp3"
-        } ,
+        },
         {
           pageImg: "assets/img/Book_cover_page/last-img.jpg",
           pageAud: ""
@@ -1241,13 +1241,17 @@ export class LibraryService {
     {
       id: "book18",
       name: "Siruvanum Thaaniyangiyum",
-      category: "big",
+      category: "stage3",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/18.JPG",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/siruvan-thaniyangi-18/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
           pageAud: ""
         },
         {
@@ -1299,13 +1303,17 @@ export class LibraryService {
     {
       id: "book19",
       name: "Irandu Nanbargal",
-      category: "big",
+      category: "stage3",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/19.JPG",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/Irandu-Nanbarkal-book-19/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
           pageAud: ""
         },
         {
@@ -1353,17 +1361,21 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book20",
       name: "Irandu Nanbargal",
-      category: "big",
+      category: "stage3",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/20.JPG",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/Kaadu-payanam-book-20/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
           pageAud: ""
         },
         {
@@ -1455,17 +1467,21 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
     {
       id: "book21",
       name: "Ethirikal",
-      category: "big",
+      category: "stage3",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/21.JPG",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/Ethirikal-book-21/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
           pageAud: ""
         },
         {
@@ -1485,7 +1501,7 @@ export class LibraryService {
           pageAud: "assets/audio/Ethirikal-book-21/04.mp3"
         },
         {
-          pageImg: "assets/img/Book-pages/Ethirikal-book-21/06.jpg", 
+          pageImg: "assets/img/Book-pages/Ethirikal-book-21/06.jpg",
           pageAud: "assets/audio/Ethirikal-book-21/05.mp3"
         },
         {
@@ -1549,17 +1565,359 @@ export class LibraryService {
           pageAud: ""
         }
       ]
-    }, 
+    },
+    {
+      id: "book23",
+      name: "Vasanthavum Maranum",
+      category: "stage3",
+      publishers: "Annai Poopathi",
+      subHeading: "",
+      coverPage: "assets/img/Book_cover_page/23.JPG",
+      bookPage: [
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/02.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/01.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/03.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/02.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/04.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/03.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/05.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/04.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/06.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/05.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/07.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/06.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/08.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/07.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/09.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/08.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/10.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/09.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/11.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/10.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/12.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/11.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/13.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/12.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/14.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/13.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/15.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/14.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/16.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/15.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/17.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/16.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/18.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/17.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/19.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/18.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/20.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/19.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/21.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/20.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/22.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/21.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/23.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/22.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/24.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/23.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/25.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/24.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/26.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/25.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/27.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/26.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/18.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/27.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/29.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/18.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/30.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/29.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/31.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/30.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/32.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/31.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/33.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/32.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/34.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/33.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/35.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/34.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/36.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/35.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/37.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/36.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/38.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/37.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/39.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/38.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/40.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/39.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/41.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/40.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/42.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/41.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/43.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/42.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/44.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/43.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/45.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/44.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/46.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/45.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/47.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/46.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/48.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/47.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/49.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/48.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/50.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/49.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/51.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/50.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/52.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/51.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/53.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/52.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/54.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/53.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/55.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/54.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/56.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/55.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/57.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/56.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/58.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/57.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/59.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/58.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/60.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/59.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/61.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/60.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/62.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/61.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/63.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/62.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/64.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/63.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/65.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/64.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/66.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/65.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/67.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/66.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/68.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/67.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/69.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/68.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/70.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/69.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/71.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/70.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/72.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/71.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/73.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/72.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/74.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/73.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/75.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/74.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/76.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/75.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/77.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/76.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/78.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/77.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/79.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/78.mp3"
+        },
+        {
+          pageImg: "assets/img/Book-pages/Vasanthavum-Maranum-book-23/80.JPG",
+          pageAud: "assets/audio/Vasanthavum-Maranum-book-23/79.mp3"
+        },
+        {
+          pageImg: "assets/img/Book_cover_page/last-img.jpg",
+          pageAud: ""
+        }
+      ]
+    },
     {
       id: "book22",
       name: "Enakku Ungalin Mel Evalavu Paasam Irukkirathu Theriuma? ",
-      category: "big",
+      category: "stage3",
       publishers: "Annai Poopathi",
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/22.JPG",
       bookPage: [
         {
           pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/01.JPG",
+          pageAud: ""
+        },
+        {
+          pageImg: "assets/img/Book-pages/Nanbargal-Credits.jpg",
           pageAud: ""
         },
         {
@@ -1579,7 +1937,7 @@ export class LibraryService {
           pageAud: "assets/audio/Paasam-theriuma-book-22/04.mp3"
         },
         {
-          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/06.JPG", 
+          pageImg: "assets/img/Book-pages/Paasam-theriuma-book-22/06.JPG",
           pageAud: "assets/audio/Paasam-theriuma-book-22/05.mp3"
         },
         {
@@ -1612,6 +1970,6 @@ export class LibraryService {
   constructor() { }
   getbook(id) {
     return this.bookDetail.find(data => data.id === id);
-    
+
   }
 }
