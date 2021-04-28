@@ -1,0 +1,1202 @@
+/**
+ * Adobe Edge: symbol definitions
+ */
+(function($, Edge, compId){
+//images folder
+var im='images/';
+
+var fonts = {};
+   fonts['baminiplain, Arial, sans-serif']='<link rel=\"stylesheet\" media=\"screen\" title=\"\" href=\"font/stylesheet.css\" type=\"text/css\" charset=\"utf-8\" />';
+
+
+var resources = [
+];
+var symbols = {
+"stage": {
+   version: "2.0.0",
+   minimumCompatibleVersion: "2.0.0",
+   build: "2.0.0.250",
+   baseState: "Base State",
+   initialState: "Base State",
+   gpuAccelerate: false,
+   resizeInstances: false,
+   content: {
+         dom: [
+         {
+            id:'wrapper',
+            type:'image',
+            rect:['0px','0px','1370px','768px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"wrapper.png",'50%','50%','1366px','768px']
+         },
+         {
+            id:'sidecolor',
+            type:'image',
+            rect:['0%','-107%','3.7%','102.6%','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"sidecolor.png",'0px','0px']
+         },
+         {
+            id:'logo_batch',
+            type:'group',
+            rect:['3.7%','79.2%','13.4%','14.7%','auto','auto'],
+            c:[
+            {
+               id:'logorect',
+               type:'rect',
+               rect:['0%','31.6%','110.4%','36.9%','auto','auto'],
+               fill:["rgba(255,255,255,1.00)"],
+               stroke:[0,"rgba(0,0,0,1)","none"]
+            },
+            {
+               id:'rights',
+               type:'text',
+               rect:['46.7%','51.4%','60.5%','13.3%','auto','auto'],
+               opacity:1,
+               text:"All Rights Reserved.",
+               align:"left",
+               font:['Arial, Helvetica, sans-serif',10,"rgba(0,0,0,1)","700","none","normal"]
+            },
+            {
+               id:'annai_no',
+               type:'text',
+               rect:['46.7%','37.2%','52.6%','14.8%','auto','auto'],
+               opacity:1,
+               text:"Annai.no © 2013",
+               font:['Arial, Helvetica, sans-serif',10,"rgba(0,0,0,1)","700","none",""]
+            },
+            {
+               id:'annailogo',
+               type:'image',
+               rect:['0%','0%','46.5%','100%','auto','auto'],
+               fill:["rgba(0,0,0,0)",im+"annailogo.png",'0px','0px']
+            }]
+         },
+         {
+            id:'eyes_12',
+            type:'image',
+            rect:['589px','-186px','182px','182px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"eyes_12.png",'0px','0px']
+         },
+         {
+            id:'pupils',
+            type:'rect',
+            rect:['214','164','auto','auto','auto','auto']
+         },
+         {
+            id:'menu_sorkal',
+            type:'image',
+            rect:['20px','-628px','249px','605px','auto','auto'],
+            cursor:['pointer'],
+            fill:["rgba(0,0,0,0)",im+"sorkal.png",'0px','0px']
+         },
+         {
+            id:'cloud1',
+            type:'image',
+            rect:['1017px','-258px','510px','510px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"cloud1.png",'0px','0px']
+         },
+         {
+            id:'cloud2',
+            type:'image',
+            rect:['48px','-258px','510px','510px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"cloud2.png",'0px','0px']
+         },
+         {
+            id:'menu_wrapper',
+            type:'image',
+            rect:['221px','2px','1373px','933px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"menu_wrapper.png",'0px','0px']
+         },
+         {
+            id:'ee_small',
+            type:'group',
+            rect:['305px','124px','53px','54','auto','auto'],
+            c:[
+            {
+               id:'rect_ee',
+               type:'rect',
+               rect:['0px','0px','66px','52px','auto','auto'],
+               cursor:['pointer'],
+               borderRadius:["10px","10px","10px","10px"],
+               fill:["rgba(252,125,27,1.00)",[50,50,true,'farthest-corner',[['rgba(255,255,255,1.00)',0],['rgba(203,199,199,1.00)',100]]]],
+               stroke:[0,"rgb(0, 0, 0)","solid"]
+            },
+            {
+               id:'text_ee',
+               type:'text',
+               rect:['18px','0px','41px','52px','auto','auto'],
+               text:"&lt;",
+               align:"left",
+               font:['baminiplain, Arial, sans-serif',60,"rgba(0,0,0,1)","700","none","normal"],
+               transform:[]
+            }]
+         },
+         {
+            id:'header',
+            type:'text',
+            rect:['423px','134px','659px','34px','auto','auto'],
+            text:"glq;fSk; Xir cr;rupg;Gk;",
+            align:"center",
+            font:['baminiplain, Arial, sans-serif',38,"rgba(253,123,22,1.00)","800","none","normal"]
+         },
+         {
+            id:'pin',
+            type:'group',
+            rect:['344px','185px','192','39','auto','auto'],
+            cursor:['pointer'],
+            c:[
+            {
+               id:'fwd',
+               type:'image',
+               rect:['0px','11px','19px','17px','auto','auto'],
+               fill:["rgba(0,0,0,0)",im+"fwd.png",'0px','0px']
+            },
+            {
+               id:'pinselga',
+               type:'text',
+               rect:['24px','2px','auto','auto','auto','auto'],
+               text:"gpd;nry;f",
+               align:"center",
+               font:['baminiplain, Arial, sans-serif',34,"rgba(0,0,0,1.00)","800","none","normal"]
+            }]
+         },
+         {
+            id:'padangal',
+            type:'group',
+            rect:['274px','227px','950px','426px','auto','auto'],
+            c:[
+            {
+               id:'veeran',
+               type:'group',
+               rect:['643px','624px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'veeran_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'veeran__img',
+                  type:'image',
+                  rect:['0px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201588.png",'0px','0px']
+               },
+               {
+                  id:'veeran_txt',
+                  type:'text',
+                  rect:['55px','201px','auto','auto','auto','auto'],
+                  text:"tPud;",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'keeri',
+               type:'group',
+               rect:['328px','624px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'keeri_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'keeri_img',
+                  type:'image',
+                  rect:['-1px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201583.png",'0px','0px']
+               },
+               {
+                  id:'keeri_txt',
+                  type:'text',
+                  rect:['53px','201px','auto','auto','auto','auto'],
+                  text:"fPhp",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'eesal',
+               type:'group',
+               rect:['16px','624px','227','189px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'eesal_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'eesal_img',
+                  type:'image',
+                  rect:['0','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201202.png",'0px','0px']
+               },
+               {
+                  id:'eesal_txt',
+                  type:'text',
+                  rect:['64px','201px','auto','auto','auto','auto'],
+                  text:"&lt;ry;",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'eeti',
+               type:'group',
+               rect:['643px','317px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'eeti_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'eeti_img',
+                  type:'image',
+                  rect:['0px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201571.png",'0px','0px']
+               },
+               {
+                  id:'eeti_txt',
+                  type:'text',
+                  rect:['81px','201px','auto','auto','auto','auto'],
+                  text:"&lt;l;b",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'ilaneer',
+               type:'group',
+               rect:['329px','317px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'ilaneer_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'ilaneer_img',
+                  type:'image',
+                  rect:['-1px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201566.png",'0px','0px']
+               },
+               {
+                  id:'ilaneer_txt',
+                  type:'text',
+                  rect:['39px','203px','auto','auto','auto','auto'],
+                  text:",sePh;",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'thee',
+               type:'group',
+               rect:['17px','317px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'thee_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'thee_img',
+                  type:'image',
+                  rect:['0','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201576.png",'0px','0px']
+               },
+               {
+                  id:'thee_txt',
+                  type:'text',
+                  rect:['66px','201px','auto','auto','auto','auto'],
+                  text:"jP",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'thaneer',
+               type:'group',
+               rect:['643px','10px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'thaneer_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'thaneer_img',
+                  type:'image',
+                  rect:['-1px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201561.png",'0px','0px']
+               },
+               {
+                  id:'thaneer_txt',
+                  type:'text',
+                  rect:['42px','201px','auto','auto','auto','auto'],
+                  text:"jz;zPh;",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'veedu',
+               type:'group',
+               rect:['329px','10px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'veedu_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgba(179,179,179,1.00)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'veedu_img',
+                  type:'image',
+                  rect:['-1px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201187.png",'0px','0px']
+               },
+               {
+                  id:'veedu_txt',
+                  type:'text',
+                  rect:['48px','201px','auto','auto','auto','auto'],
+                  text:"tPL",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            },
+            {
+               id:'meen',
+               type:'group',
+               rect:['17px','10px','290px','295px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'meen_rect',
+                  type:'rect',
+                  rect:['-11px','6px','243px','243px','auto','auto'],
+                  sizeRange:['0px','','',''],
+                  borderRadius:["10px 0px","10px 0px","25px 26px","25px 25px"],
+                  fill:["rgba(255,255,255,1.00)"],
+                  stroke:[2,"rgb(179, 179, 179)","solid"],
+                  source:['0px','','',''],
+                  transform:[]
+               },
+               {
+                  id:'meen_img',
+                  type:'image',
+                  rect:['-1px','15px','267px','212px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"image%201552.png",'0px','0px']
+               },
+               {
+                  id:'meen_txt',
+                  type:'text',
+                  rect:['66px','202px','auto','auto','auto','auto'],
+                  text:"kPd;",
+                  align:"left",
+                  font:['baminiplain, Arial, sans-serif',51,"rgba(0,0,0,1)","bold","none","normal"]
+               }]
+            }]
+         },
+         {
+            id:'home',
+            type:'image',
+            rect:['293px','37px','71px','71px','auto','auto'],
+            cursor:['pointer'],
+            fill:["rgba(0,0,0,0)",im+"home.png",'0px','0px']
+         },
+         {
+            id:'pin2',
+            type:'group',
+            rect:['345px','657px','192','39','auto','auto'],
+            cursor:['pointer'],
+            c:[
+            {
+               id:'fwd2',
+               type:'image',
+               rect:['0px','11px','19px','17px','auto','auto'],
+               fill:["rgba(0,0,0,0)",im+"fwd.png",'0px','0px']
+            },
+            {
+               id:'pinselga2',
+               type:'text',
+               rect:['24px','2px','auto','auto','auto','auto'],
+               text:"gpd;nry;f",
+               align:"center",
+               font:['baminiplain, Arial, sans-serif',34,"rgba(0,0,0,1.00)","800","none","normal"]
+            }]
+         },
+         {
+            id:'fct',
+            display:'none',
+            type:'group',
+            rect:['55','732','227','28','auto','auto'],
+            c:[
+            {
+               id:'fct_2',
+               type:'group',
+               rect:['0px','0px','258px','26px','auto','auto'],
+               cursor:['pointer'],
+               c:[
+               {
+                  id:'txt_fct',
+                  type:'text',
+                  rect:['90px','7px','auto','auto','auto','auto'],
+                  text:"Flow Chart Technologies",
+                  align:"left",
+                  font:['Arial, Helvetica, sans-serif',11,"rgba(0,0,0,1)","bold","none","normal"]
+               },
+               {
+                  id:'fct_logo',
+                  type:'image',
+                  rect:['59px','0px','30px','28px','auto','auto'],
+                  fill:["rgba(0,0,0,0)",im+"fct_logo.png",'0px','0px']
+               }]
+            },
+            {
+               id:'pwd_fct',
+               type:'text',
+               rect:['0px','8px','auto','auto','auto','auto'],
+               text:"Powered by :",
+               align:"left",
+               font:['Arial, Helvetica, sans-serif',9,"rgba(0,0,0,1)","700","none",""]
+            }]
+         }],
+         symbolInstances: [
+         {
+            id:'pupils',
+            symbolName:'pupils'
+         }
+         ]
+      },
+   states: {
+      "Base State": {
+         "${_keeri_img}": [
+            ["style", "top", '15px'],
+            ["style", "height", '212px'],
+            ["style", "left", '-1px'],
+            ["style", "width", '267px']
+         ],
+         "${_eeti_img}": [
+            ["style", "height", '212px'],
+            ["style", "top", '15px'],
+            ["style", "left", '0px'],
+            ["style", "width", '267px']
+         ],
+         "${_veedu_txt}": [
+            ["style", "top", '236px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "height", '33px'],
+            ["style", "left", '89px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_pwd_fct}": [
+            ["style", "top", '8px'],
+            ["style", "text-align", 'left'],
+            ["style", "font-weight", '700'],
+            ["style", "left", '0px'],
+            ["style", "font-size", '9px']
+         ],
+         "${_veeran__img}": [
+            ["style", "top", '15px'],
+            ["style", "height", '212px'],
+            ["style", "left", '0px'],
+            ["style", "width", '267px']
+         ],
+         "${_thaneer}": [
+            ["style", "top", '10px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '643px']
+         ],
+         "${_veeran_txt}": [
+            ["style", "top", '239px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '88px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_ilaneer_img}": [
+            ["style", "height", '212px'],
+            ["style", "top", '15px'],
+            ["style", "left", '-1px'],
+            ["style", "width", '267px']
+         ],
+         "${_pupils}": [
+            ["style", "top", '39px'],
+            ["transform", "scaleY", '0.6'],
+            ["style", "display", 'block'],
+            ["style", "left", '593px'],
+            ["transform", "scaleX", '0.63107']
+         ],
+         "${_ilaneer}": [
+            ["style", "top", '317px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '329px']
+         ],
+         "${_thee_img}": [
+            ["style", "height", '212px'],
+            ["style", "top", '15px'],
+            ["style", "width", '267px']
+         ],
+         "${_keeri_txt}": [
+            ["style", "top", '239px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '109px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_ilaneer_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "border-width", '2px'],
+            ["style", "left", '-11px']
+         ],
+         "${_thee}": [
+            ["style", "top", '317px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '17px']
+         ],
+         "${_pinselga2}": [
+            ["color", "color", 'rgba(0,0,0,1.00)'],
+            ["style", "top", '2px'],
+            ["style", "left", '24px'],
+            ["style", "font-size", '34px']
+         ],
+         "${_home}": [
+            ["style", "top", '37px'],
+            ["style", "height", '71px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '293px'],
+            ["style", "width", '71px']
+         ],
+         "${_eyes_12}": [
+            ["style", "height", '182px'],
+            ["style", "top", '-42px'],
+            ["style", "left", '589px'],
+            ["style", "width", '182px']
+         ],
+         "${_rights}": [
+            ["style", "top", '51.36%'],
+            ["style", "font-size", '10px'],
+            ["style", "font-family", 'Arial, Helvetica, sans-serif'],
+            ["style", "opacity", '1'],
+            ["style", "height", '13.28%'],
+            ["style", "font-weight", 'bold'],
+            ["style", "left", '46.69%'],
+            ["style", "width", '60.47%']
+         ],
+         "${_meen_txt}": [
+            ["style", "top", '240px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '88px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_eesal_img}": [
+            ["style", "top", '15px'],
+            ["style", "height", '212px'],
+            ["style", "width", '267px']
+         ],
+         "${_fwd2}": [
+            ["style", "top", '11px'],
+            ["style", "height", '17px'],
+            ["style", "left", '0px'],
+            ["style", "width", '19px']
+         ],
+         "${_eeti_txt}": [
+            ["style", "top", '235px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '86px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_header}": [
+            ["color", "color", 'rgba(253,123,22,1)'],
+            ["style", "font-weight", '800'],
+            ["style", "left", '423px'],
+            ["style", "font-size", '38px'],
+            ["style", "top", '134px'],
+            ["style", "text-align", 'center'],
+            ["style", "height", '34px'],
+            ["style", "opacity", '1'],
+            ["style", "width", '659px']
+         ],
+         "${_eesal_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "border-width", '2px'],
+            ["style", "left", '-11px']
+         ],
+         "${_Stage}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "min-width", '310px'],
+            ["style", "overflow", 'hidden'],
+            ["style", "height", '768px'],
+            ["style", "width", '100%']
+         ],
+         "${_eesal_txt}": [
+            ["style", "top", '239px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '84px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_veeran_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "border-width", '2px'],
+            ["style", "left", '-11px']
+         ],
+         "${_menu_sorkal}": [
+            ["style", "top", '-172px'],
+            ["style", "height", '605px'],
+            ["style", "left", '20px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '249px']
+         ],
+         "${_panam_txtCopy}": [
+            ["style", "top", '201px'],
+            ["style", "left", '55px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_txt_fct}": [
+            ["style", "top", '7px'],
+            ["style", "left", '90px'],
+            ["style", "font-size", '11px']
+         ],
+         "${_pin2}": [
+            ["style", "top", '657px'],
+            ["style", "left", '345px'],
+            ["style", "cursor", 'pointer']
+         ],
+         "${_pinselga}": [
+            ["style", "top", '2px'],
+            ["color", "color", 'rgba(0,0,0,1.00)'],
+            ["style", "left", '24px'],
+            ["style", "font-size", '34px']
+         ],
+         "${_padangal}": [
+            ["style", "top", '227px'],
+            ["style", "overflow", 'auto'],
+            ["style", "height", '426px'],
+            ["style", "left", '274px'],
+            ["style", "width", '950px']
+         ],
+         "${_fct}": [
+            ["style", "display", 'none']
+         ],
+         "${_meen_img}": [
+            ["style", "height", '212px'],
+            ["style", "top", '15px'],
+            ["style", "left", '-1px'],
+            ["style", "width", '267px']
+         ],
+         "${_fwd}": [
+            ["style", "height", '17px'],
+            ["style", "top", '11px'],
+            ["style", "left", '0px'],
+            ["style", "width", '19px']
+         ],
+         "${_eeti}": [
+            ["style", "top", '317px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '643px']
+         ],
+         "${_thee_txt}": [
+            ["style", "top", '235px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '109px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_thee_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "left", '-11px'],
+            ["style", "border-width", '2px']
+         ],
+         "${_keeri}": [
+            ["style", "top", '624px'],
+            ["style", "height", '295px'],
+            ["style", "left", '328px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '290px']
+         ],
+         "${_text_ee}": [
+            ["style", "-webkit-transform-origin", [50,62], {valueTemplate:'@@0@@% @@1@@%'} ],
+            ["style", "-moz-transform-origin", [50,62],{valueTemplate:'@@0@@% @@1@@%'}],
+            ["style", "-ms-transform-origin", [50,62],{valueTemplate:'@@0@@% @@1@@%'}],
+            ["style", "msTransformOrigin", [50,62],{valueTemplate:'@@0@@% @@1@@%'}],
+            ["style", "-o-transform-origin", [50,62],{valueTemplate:'@@0@@% @@1@@%'}],
+            ["style", "letter-spacing", '0px'],
+            ["transform", "scaleX", '1'],
+            ["style", "font-weight", 'bold'],
+            ["style", "left", '18px'],
+            ["style", "font-size", '60px'],
+            ["style", "top", '0px'],
+            ["transform", "scaleY", '1'],
+            ["style", "height", '52px'],
+            ["style", "width", '41px'],
+            ["style", "word-spacing", '0px'],
+            ["style", "line-height", '50px']
+         ],
+         "${_pantham_txtCopy}": [
+            ["style", "top", '201px'],
+            ["style", "left", '53px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_thaneer_txt}": [
+            ["style", "top", '236px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '43px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_sidecolor}": [
+            ["style", "top", '-1.43%'],
+            ["style", "height", '102.6%'],
+            ["style", "opacity", '1'],
+            ["style", "left", '0%'],
+            ["style", "width", '3.67%']
+         ],
+         "${_cloud2}": [
+            ["style", "height", '258px'],
+            ["style", "top", '-127px'],
+            ["style", "left", '0px'],
+            ["style", "width", '258px']
+         ],
+         "${_keeri_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "left", '-11px'],
+            ["style", "border-width", '2px']
+         ],
+         "${_logorect}": [
+            ["style", "top", '31.56%'],
+            ["style", "height", '36.87%'],
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "left", '0%'],
+            ["style", "width", '110.38%']
+         ],
+         "${_veedu_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1.00)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "border-width", '2px'],
+            ["style", "left", '-11px']
+         ],
+         "${_ilaneer_txt}": [
+            ["style", "top", '235px'],
+            ["color", "color", 'rgba(0,0,0,1)'],
+            ["style", "left", '59px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_fct_logo}": [
+            ["style", "height", '28px'],
+            ["style", "top", '0px'],
+            ["style", "left", '59px'],
+            ["style", "width", '30px']
+         ],
+         "${_fct_2}": [
+            ["style", "height", '26px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '258px']
+         ],
+         "${_annailogo}": [
+            ["style", "top", '0%'],
+            ["style", "left", '-0.03%']
+         ],
+         "${_rect_ee}": [
+            ["style", "top", '0px'],
+            ["color", "background-color", 'rgba(252,125,27,1)'],
+            ["style", "cursor", 'pointer'],
+            ["style", "height", '52px'],
+            ["gradient", "background-image", [50,50,true,'farthest-corner',[['rgba(251,136,35,1.00)',100],['rgba(202,198,198,1.00)',100]]]],
+            ["style", "left", '0px'],
+            ["style", "width", '66px']
+         ],
+         "${_meen}": [
+            ["style", "height", '295px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '290px']
+         ],
+         "${_cloud1}": [
+            ["style", "height", '258px'],
+            ["style", "top", '-118px'],
+            ["style", "left", '1111px'],
+            ["style", "width", '258px']
+         ],
+         "${_panthu_txtCopy}": [
+            ["style", "top", '201px'],
+            ["style", "left", '64px'],
+            ["style", "font-size", '51px']
+         ],
+         "${_wrapper}": [
+            ["style", "top", '0px'],
+            ["style", "height", '768px'],
+            ["style", "background-position", [50,50], {valueTemplate:'@@0@@% @@1@@%'} ],
+            ["style", "left", '0px'],
+            ["style", "width", '1370px']
+         ],
+         "${_eesal}": [
+            ["style", "top", '624px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "left", '16px']
+         ],
+         "${_veedu}": [
+            ["style", "height", '295px'],
+            ["style", "left", '329px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '290px']
+         ],
+         "${_eeti_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "left", '-11px'],
+            ["style", "border-width", '2px']
+         ],
+         "${_veedu_img}": [
+            ["style", "top", '15px'],
+            ["style", "height", '212px'],
+            ["style", "left", '-1px'],
+            ["style", "width", '267px']
+         ],
+         "${_veeran}": [
+            ["style", "top", '624px'],
+            ["style", "height", '295px'],
+            ["style", "left", '643px'],
+            ["style", "cursor", 'pointer'],
+            ["style", "width", '290px']
+         ],
+         "${_meen_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1.00)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1.00)'],
+            ["style", "left", '-11px'],
+            ["style", "border-width", '2px']
+         ],
+         "${_ee_small}": [
+            ["style", "left", '305px'],
+            ["style", "top", '124px']
+         ],
+         "${_annai_no}": [
+            ["style", "top", '37.18%'],
+            ["style", "width", '52.64%'],
+            ["style", "opacity", '1'],
+            ["style", "font-family", 'Arial, Helvetica, sans-serif'],
+            ["style", "height", '14.75%'],
+            ["style", "font-weight", 'bold'],
+            ["style", "left", '46.69%'],
+            ["style", "font-size", '10px']
+         ],
+         "${_thaneer_img}": [
+            ["style", "height", '212px'],
+            ["style", "top", '15px'],
+            ["style", "left", '-1px'],
+            ["style", "width", '267px']
+         ],
+         "${_thaneer_rect}": [
+            ["color", "background-color", 'rgba(255,255,255,1.00)'],
+            ["style", "border-top-left-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-bottom-right-radius", [25,26], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "border-top-right-radius", [10,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "width", '284px'],
+            ["style", "top", '6px'],
+            ["style", "border-bottom-left-radius", [25,25], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '290px'],
+            ["color", "border-color", 'rgba(179,179,179,1)'],
+            ["style", "left", '-11px'],
+            ["style", "border-width", '2px']
+         ],
+         "${_logo_batch}": [
+            ["style", "left", '3.66%'],
+            ["style", "opacity", '1']
+         ],
+         "${_pin}": [
+            ["style", "top", '185px'],
+            ["style", "left", '344px'],
+            ["style", "cursor", 'pointer']
+         ],
+         "${_menu_wrapper}": [
+            ["style", "top", '2px'],
+            ["style", "height", '717px'],
+            ["style", "left", '221px'],
+            ["style", "width", '1055px']
+         ]
+      }
+   },
+   timelines: {
+      "Default Timeline": {
+         fromState: "Base State",
+         toState: "",
+         duration: 2431,
+         autoPlay: true,
+         labels: {
+            "on_1": 1000,
+            "off_1": 1071,
+            "on_2": 1152,
+            "off_2": 1223,
+            "on_3": 1367,
+            "off_3": 1438,
+            "on_4": 1528,
+            "off_4": 1599,
+            "on_5": 1721,
+            "off_5": 1792,
+            "on_6": 1922,
+            "off_6": 1993,
+            "on_7": 2063,
+            "off_7": 2134,
+            "on_8": 2212,
+            "off_8": 2283,
+            "on_9": 2360,
+            "off_9": 2431
+         },
+         timeline: [
+            { id: "eid25", tween: [ "color", "${_veedu_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1152, duration: 14 },
+            { id: "eid26", tween: [ "color", "${_veedu_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1223, duration: 0 },
+            { id: "eid125", tween: [ "style", "${_eesal_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid14", tween: [ "color", "${_meen_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1000, duration: 14 },
+            { id: "eid16", tween: [ "color", "${_meen_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1071, duration: 0 },
+            { id: "eid12", tween: [ "style", "${_meen_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1000, duration: 14 },
+            { id: "eid19", tween: [ "style", "${_meen_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1071, duration: 0 },
+            { id: "eid126", tween: [ "style", "${_eeti_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid55", tween: [ "color", "${_eeti_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1922, duration: 14 },
+            { id: "eid56", tween: [ "color", "${_eeti_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1993, duration: 0 },
+            { id: "eid132", tween: [ "style", "${_thee_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid21", tween: [ "color", "${_veedu_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1152, duration: 14 },
+            { id: "eid22", tween: [ "color", "${_veedu_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1223, duration: 0 },
+            { id: "eid133", tween: [ "style", "${_thaneer_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid43", tween: [ "color", "${_ilaneer_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1721, duration: 14 },
+            { id: "eid44", tween: [ "color", "${_ilaneer_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1792, duration: 0 },
+            { id: "eid119", tween: [ "style", "${_fct}", "display", 'block', { fromValue: 'none'}], position: 0, duration: 0 },
+            { id: "eid35", tween: [ "style", "${_thee_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1529, duration: 13 },
+            { id: "eid79", tween: [ "style", "${_thee_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1599, duration: 0 },
+            { id: "eid36", tween: [ "style", "${_thee_rect}", "border-width", '2px', { fromValue: '2px'}], position: 1600, duration: 0 },
+            { id: "eid37", tween: [ "color", "${_thee_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1529, duration: 13 },
+            { id: "eid80", tween: [ "color", "${_thee_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1599, duration: 0 },
+            { id: "eid38", tween: [ "color", "${_thee_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1600, duration: 0 },
+            { id: "eid73", tween: [ "color", "${_veeran_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 2360, duration: 14 },
+            { id: "eid74", tween: [ "color", "${_veeran_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 2431, duration: 0 },
+            { id: "eid61", tween: [ "color", "${_eesal_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 2063, duration: 14 },
+            { id: "eid62", tween: [ "color", "${_eesal_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 2134, duration: 0 },
+            { id: "eid124", tween: [ "style", "${_eesal_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid139", tween: [ "style", "${_meen_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid41", tween: [ "style", "${_ilaneer_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1721, duration: 14 },
+            { id: "eid42", tween: [ "style", "${_ilaneer_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1792, duration: 0 },
+            { id: "eid51", tween: [ "color", "${_eeti_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1922, duration: 14 },
+            { id: "eid52", tween: [ "color", "${_eeti_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1993, duration: 0 },
+            { id: "eid8", tween: [ "color", "${_meen_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1000, duration: 14 },
+            { id: "eid20", tween: [ "color", "${_meen_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1071, duration: 0 },
+            { id: "eid130", tween: [ "style", "${_ilaneer_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid138", tween: [ "style", "${_meen_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid29", tween: [ "style", "${_thaneer_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1367, duration: 14 },
+            { id: "eid30", tween: [ "style", "${_thaneer_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1438, duration: 0 },
+            { id: "eid27", tween: [ "color", "${_thaneer_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1367, duration: 14 },
+            { id: "eid28", tween: [ "color", "${_thaneer_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1438, duration: 0 },
+            { id: "eid120", tween: [ "style", "${_veeran_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid131", tween: [ "style", "${_thee_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid71", tween: [ "style", "${_veeran_rect}", "border-width", '3px', { fromValue: '2px'}], position: 2360, duration: 14 },
+            { id: "eid72", tween: [ "style", "${_veeran_rect}", "border-width", '2px', { fromValue: '3px'}], position: 2431, duration: 0 },
+            { id: "eid69", tween: [ "color", "${_veeran_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 2360, duration: 14 },
+            { id: "eid70", tween: [ "color", "${_veeran_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 2431, duration: 0 },
+            { id: "eid23", tween: [ "style", "${_veedu_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1152, duration: 14 },
+            { id: "eid24", tween: [ "style", "${_veedu_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1223, duration: 0 },
+            { id: "eid128", tween: [ "style", "${_ilaneer_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid135", tween: [ "style", "${_thaneer_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid63", tween: [ "color", "${_keeri_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 2212, duration: 14 },
+            { id: "eid64", tween: [ "color", "${_keeri_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 2283, duration: 0 },
+            { id: "eid136", tween: [ "style", "${_veedu_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid39", tween: [ "color", "${_ilaneer_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1721, duration: 14 },
+            { id: "eid40", tween: [ "color", "${_ilaneer_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1792, duration: 0 },
+            { id: "eid123", tween: [ "style", "${_keeri_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid53", tween: [ "style", "${_eeti_rect}", "border-width", '3px', { fromValue: '2px'}], position: 1922, duration: 14 },
+            { id: "eid54", tween: [ "style", "${_eeti_rect}", "border-width", '2px', { fromValue: '3px'}], position: 1993, duration: 0 },
+            { id: "eid57", tween: [ "color", "${_eesal_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 2063, duration: 14 },
+            { id: "eid58", tween: [ "color", "${_eesal_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 2134, duration: 0 },
+            { id: "eid122", tween: [ "style", "${_keeri_rect}", "width", '284px', { fromValue: '284px'}], position: 0, duration: 0 },
+            { id: "eid59", tween: [ "style", "${_eesal_rect}", "border-width", '3px', { fromValue: '2px'}], position: 2063, duration: 14 },
+            { id: "eid60", tween: [ "style", "${_eesal_rect}", "border-width", '2px', { fromValue: '3px'}], position: 2134, duration: 0 },
+            { id: "eid127", tween: [ "style", "${_eeti_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid121", tween: [ "style", "${_veeran_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 },
+            { id: "eid65", tween: [ "style", "${_keeri_rect}", "border-width", '3px', { fromValue: '2px'}], position: 2212, duration: 14 },
+            { id: "eid66", tween: [ "style", "${_keeri_rect}", "border-width", '2px', { fromValue: '3px'}], position: 2283, duration: 0 },
+            { id: "eid33", tween: [ "color", "${_thee_txt}", "color", 'rgba(210,15,255,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1529, duration: 13 },
+            { id: "eid76", tween: [ "color", "${_thee_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(210,15,255,1.00)'}], position: 1599, duration: 0 },
+            { id: "eid34", tween: [ "color", "${_thee_txt}", "color", 'rgba(0,0,0,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(0,0,0,1)'}], position: 1600, duration: 0 },
+            { id: "eid67", tween: [ "color", "${_keeri_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 2212, duration: 14 },
+            { id: "eid68", tween: [ "color", "${_keeri_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 2283, duration: 0 },
+            { id: "eid31", tween: [ "color", "${_thaneer_rect}", "border-color", 'rgba(255,0,0,1.00)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(179,179,179,1)'}], position: 1367, duration: 14 },
+            { id: "eid32", tween: [ "color", "${_thaneer_rect}", "border-color", 'rgba(179,179,179,1)', { animationColorSpace: 'RGB', valueTemplate: undefined, fromValue: 'rgba(255,0,0,1.00)'}], position: 1438, duration: 0 },
+            { id: "eid158", tween: [ "style", "${_pupils}", "display", 'block', { fromValue: 'block'}], position: 0, duration: 0 },
+            { id: "eid137", tween: [ "style", "${_veedu_rect}", "height", '290px', { fromValue: '290px'}], position: 0, duration: 0 }         ]
+      }
+   }
+},
+"pupils": {
+   version: "2.0.0",
+   minimumCompatibleVersion: "2.0.0",
+   build: "2.0.0.250",
+   baseState: "Base State",
+   initialState: "Base State",
+   gpuAccelerate: false,
+   resizeInstances: false,
+   content: {
+   dom: [
+   {
+      id: 'eyeb2',
+      type: 'image',
+      rect: ['88px','0','30px','32px','auto','auto'],
+      fill: ['rgba(0,0,0,0)','images/eyeb2.png','0px','0px']
+   },
+   {
+      id: 'eyeb1',
+      type: 'image',
+      rect: ['-6px','-49px','65px','71px','auto','auto'],
+      fill: ['rgba(0,0,0,0)','images/eyeb1.png','0px','0px']
+   }],
+   symbolInstances: [
+   ]
+   },
+   states: {
+      "Base State": {
+         "${_eyeb1}": [
+            ["style", "top", '-48px'],
+            ["style", "left", '11px']
+         ],
+         "${_eyeb2}": [
+            ["style", "top", '5px'],
+            ["style", "left", '97px']
+         ],
+         "${symbolSelector}": [
+            ["style", "height", '16px'],
+            ["style", "width", '103px']
+         ]
+      }
+   },
+   timelines: {
+      "Default Timeline": {
+         fromState: "Base State",
+         toState: "",
+         duration: 2000,
+         autoPlay: true,
+         timeline: [
+            { id: "eid17", tween: [ "style", "${_eyeb2}", "left", '120px', { fromValue: '97px'}], position: 0, duration: 2000, easing: "easeOutExpo" },
+            { id: "eid34", tween: [ "style", "${_eyeb1}", "top", '-49px', { fromValue: '-48px'}], position: 0, duration: 2000, easing: "easeOutExpo" },
+            { id: "eid22", tween: [ "style", "${_eyeb1}", "left", '50px', { fromValue: '11px'}], position: 0, duration: 2000, easing: "easeOutExpo" }         ]
+      }
+   }
+}
+};
+
+
+Edge.registerCompositionDefn(compId, symbols, fonts, resources);
+
+/**
+ * Adobe Edge DOM Ready Event Handler
+ */
+$(window).ready(function() {
+     Edge.launchComposition(compId);
+});
+})(jQuery, AdobeEdge, "EDGE-13970204");

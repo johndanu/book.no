@@ -1,0 +1,19 @@
+hr {
+  background-color: rgb(238, 234, 241) !important;
+}
+.bg-tab-song {
+  background-color: #2b2b51;
+}
+.text-tab-song {
+  color: rgb(231, 235, 243);
+}
+.active-tab {
+  color: rgb(95, 77, 7);
+  background-color: cornsilk;
+}
+
+@media only screen and (max-width: 750px) {
+  .noDisplay {
+    display: none;
+  }
+}

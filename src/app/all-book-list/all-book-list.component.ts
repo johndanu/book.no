@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router'
+import {ActivatedRoute, Router} from '@angular/router'
 import { from } from 'rxjs';
 import { LibraryService } from '../library.service';
 
@@ -9,23 +9,29 @@ import { LibraryService } from '../library.service';
   styleUrls: ['./all-book-list.component.css']
 })
 export class AllBookListComponent implements OnInit {
-  public BookStage01 = [];
-  public BookStage02 = [];
-  public BookStage03 = [];
+  public bookListByStage=[];
+  public stage:string;
   public list = []
+  public stageNumber : string;
 
-  constructor(private router:Router, private _LibraryService: LibraryService) { }
+  constructor(private router:Router, private _LibraryService: LibraryService, private route : ActivatedRoute) { }
 
 
   
   ngOnInit(): void {
-    this.list = this._LibraryService.bookDetail
-    this.BookStage01 = this.list.filter(book => book.category == 'stage1')
-    this.BookStage02 = this.list.filter(book => book.category == 'stage2') 
-    this.BookStage03 = this.list.filter(book => book.category == 'stage3')
+    this.route.params.subscribe((params)=>{
+      this.stage = params['stage']
+      this.ReloadBooks()
+    })
+    
+    
   }
   selectBook(book){
     this.router.navigate(['/read/',book])
   }
-
+  ReloadBooks(){
+    this.list = this._LibraryService.bookDetail
+    this.bookListByStage = this.list.filter(book => book.category == this.stage)
+    this.stageNumber=this.stage.substring(this.stage.length-1,this.stage.length)
+  }
 }

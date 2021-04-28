@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import{NgWhiteboardModule }from'ng-whiteboard';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 
+ 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NavBarComponent } from './Common/nav-bar/nav-bar.component';
 import { AllBookListComponent } from './all-book-list/all-book-list.component';
 import { ReadBookComponent } from './read-book/read-book.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +19,12 @@ import { ImageComponent } from './read-book/image/image.component';
 import { WriteLetterComponent } from './Alphabets/write-letter/write-letter.component';
 import { LetterListComponent } from './Alphabets/letter-list/letter-list.component';
 import { LettersComponent } from './Alphabets/write-letter/letters/letters.component';
-import { FooterComponent } from './Common/footer/footer.component'
+import { FooterComponent } from './Common/footer/footer.component';
+import { SongListComponent } from './song-list/song-list.component';
+import { SongComponent } from './song-list/song/song.component';
+import { VideoComponent } from './song-list/song/video/video.component';
+import { LyricComponent } from './song-list/song/lyric/lyric.component';
+import { AudioComponent } from './song-list/song/audio/audio.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +38,12 @@ import { FooterComponent } from './Common/footer/footer.component'
     WriteLetterComponent,
     LetterListComponent,
     LettersComponent,
-    FooterComponent
+    FooterComponent,
+    SongListComponent,
+    SongComponent,
+    VideoComponent,
+    LyricComponent,
+    AudioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+<div
+  style="
+    background: linear-gradient(
+      to left,
+      rgba(250, 250, 250, 0) 0%,
+      rgb(43, 104, 189) 100%
+    );
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+    color: white;
+  "
+  class="p-1 ml-0 col-12"
+>
+  <h2 class="font-weight-bold text-center">அழகுப் பூம்பனி</h2>
+</div>
+
+<div>
+  <!-- Tabs navs -->
+  <ul class="nav nav-tabs nav-justified mt-3 h4" id="ex1" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link text-tab-song bg-tab-song"
+        routerLink="lyric"
+        routerLinkActive="active-tab "
+        ><i class="fas fa-guitar"></i><span class="noDisplay"> பாடல்</span></a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link text-tab-song bg-tab-song"
+        routerLink="audio"
+        routerLinkActive="active-tab "
+        ><i class="fas fa-headphones"></i
+        ><span class="noDisplay"> கேட்போம்</span></a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link text-tab-song bg-tab-song"
+        routerLink="video"
+        routerLinkActive="active-tab "
+        ><i class="fas fa-video"></i> <span class="noDisplay"> காணொளி</span></a
+      >
+    </li>
+  </ul>
+  <!-- Tabs navs -->
+  <!-- Tabs content -->
+  <div class="tab-content text-tab-song bg-tab-song m" id="ex2-content">
+    <div class="tab-pane fade show active p-2">
+      <hr />
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <!-- Tabs content -->
+</div>

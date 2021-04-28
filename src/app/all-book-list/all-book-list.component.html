@@ -1,10 +1,10 @@
 <div
     style="background:linear-gradient(to left, rgba(250,250,250,0) 0%, rgb(43, 104, 189) 100%);; margin-top: 2rem; border-radius: 0.4rem; color: white;">
-    <p style="padding: 1rem;" class="h4"><b>புத்தகங்கள் நிலை 01</b></p>
+    <p style="padding: 1rem;" class="h4"><b>புத்தகங்கள் நிலை 0{{stageNumber}}</b></p>
 </div>
 <div class="col-12 col-sm-12 col-md-12 mx-auto">
     <div class="row">
-        <div *ngFor="let book of BookStage01"
+        <div *ngFor="let book of bookListByStage"
             class=" wow flipInX  p-1 w-100 view col-md-4 col-lg-4 col-12 overlay zoom aniShake aniBigBeatIcon">
             <div class="card">
                 <div class="aniShake">
@@ -25,60 +25,7 @@
         </div>
     </div>
 </div>
-<div
-    style="background:linear-gradient(to left, rgba(250,250,250,0) 0%, rgb(43, 104, 189) 100%); margin-top: 2rem; border-radius: 0.4rem; color: white;">
-    <p style="padding: 1rem;" class="h4"><b>புத்தகங்கள் நிலை 02</b></p>
-</div>
-<div class="col-12 col-sm-12 col-md-12 mx-auto">
-    <div class="row">
-        <div *ngFor="let book of BookStage02"
-            class=" wow flipInX w-100 view col-md-4 col-lg-4 col-12 overlay zoom aniShake aniBigBeatIcon">
-            <div class="card">
-                <div class="aniShake">
-                    <a (click)="selectBook(book.id)">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <img src="{{book.coverPage}}" class="card-img img-thumbnail w-100" alt="{{book.name}}">
-                            </div>
-                            <div class="mask text-white flex-center">
-                                <p class="readTxt text-center aniShake"><span class="display-4  "><i
-                                            class="fas fa-book-reader aniIcon"></i></span><br><span
-                                        class="font-weight-bold">வாசிப்போம்...</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
 
-            </div>
-        </div>
-    </div>
-</div>
-<div
-    style="background:linear-gradient(to left, rgba(250,250,250,0) 0%, rgb(43, 104, 189) 100%); margin-top: 2rem; border-radius: 0.4rem; color: white;">
-    <p style="padding: 1rem;" class="h4"><b>புத்தகங்கள் நிலை 03</b></p>
-</div>
-<div class="col-12 col-sm-12 col-md-12 mx-auto">
-    <div class="row">
-        <div *ngFor="let book of BookStage03"
-            class=" wow flipInX w-100 view col-md-4 col-lg-4 col-12 overlay zoom aniShake aniBigBeatIcon">
-            <div class="card">
-                <div class="aniShake">
-                    <a (click)="selectBook(book.id)">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <img src="{{book.coverPage}}" class="card-img img-thumbnail w-100" alt="{{book.name}}">
-                            </div>
-                            <div class="mask text-white flex-center">
-                                <p class="readTxt text-center aniShake"><span class="display-4  "><i
-                                            class="fas fa-book-reader aniIcon"></i></span><br><span
-                                        class="font-weight-bold">வாசிப்போம்...</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
 
-        </div>
-    </div>
-</div>
+
 <!-- </div> -->
