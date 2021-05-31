@@ -12,4 +12,12 @@ export class LyricComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  play() {
+    let audio = <HTMLAudioElement>document.getElementById('player');
+    audio.play();
+    console.log(audio);
+
+
+  }
+
 }

@@ -1,0 +1,41 @@
+.box {
+  overflow-y: scroll;
+  height: 90vh;
+}
+.float-button {
+  position: fixed;
+  bottom: 55px;
+  right: 5px;
+}
+.fButton {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 3rem;
+  border: none none none;
+  background-color: #0442bd;
+  cursor: pointer;
+  animation-name: color-change-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-change-animation {
+  0% {
+    color: white;
+    background-color: #243602;
+  }
+  50% {
+    color: #ffffff;
+    background-color: #e3e5ec;
+
+    transform: scale(0.75, 0.75);
+  }
+  100% {
+    color: white;
+    background-color: #243602;
+  }
+}

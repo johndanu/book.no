@@ -17,7 +17,7 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: '/book-list/stage1',
-    pathMatch:'full'
+    pathMatch: 'full'
   },
   { path: 'home', component: HomePageComponent },
   {
@@ -38,23 +38,23 @@ const routes: Routes = [
     component: LetterListComponent,
   },
   {
-    path:'song-list',
-    component:SongListComponent
+    path: 'song-list',
+    component: SongListComponent
   },
   {
-    path:'my-song',
-    component:SongComponent,
-    children:[
+    path: 'my-song',
+    component: SongComponent,
+    children: [
       {
-        path:'video',
-        component:VideoComponent
+        path: 'video',
+        component: VideoComponent
       },
       {
-        path:'lyric',
+        path: 'lyric',
         component: LyricComponent
       },
       {
-        path:'audio',
+        path: 'audio',
         component: AudioComponent
       }
     ]
@@ -70,4 +70,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

@@ -2044,7 +2044,7 @@ export class LibraryService {
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/25.JPG",
       bookPage: [
-        { 
+        {
           pageImg: "assets/img/Book-pages/Avanthika-book-25/01.JPG",
           pageAud: ""
         },
@@ -2182,7 +2182,7 @@ export class LibraryService {
       subHeading: "",
       coverPage: "assets/img/Book_cover_page/26.JPG",
       bookPage: [
-        { 
+        {
           pageImg: "assets/img/Book-pages/Uthavi-book-26/01.JPG",
           pageAud: ""
         },
@@ -2273,7 +2273,7 @@ export class LibraryService {
         {
           pageImg: "assets/img/Book-pages/Uthavi-book-26/22.JPG",
           pageAud: "assets/audio/Uthavi-book-26/21.mp3"
-        }, 
+        },
         {
           pageImg: "assets/img/Book-pages/Uthavi-book-26/23.JPG",
           pageAud: "assets/audio/Uthavi-book-26/22.mp3"
