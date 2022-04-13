@@ -29,14 +29,21 @@
           class="fas fa-child aniIcon"></i><span class="noDisplay">
           முகப்பு</span></span></a>
 
-    <a class="btn btn-color3 rounded-pill aniShake aniRotateIcon" routerLink="/book-list"><span class="h4 "><i
-          class="fas fa-list-alt aniIcon"></i><span class="noDisplay"> புத்தக
-          அட்டவணை</span></span></a>
+    <div class="dropdown">
+      <a class="btn btn-color3 rounded-pill aniShake aniRotateIcon dropbtn" ><span class="h4 "><i
+            class="fas fa-list-alt aniIcon"></i><span class="noDisplay"> புத்தக
+            அட்டவணை</span></span></a>
+      <div class="dropdown-content">
+        <a routerLink ='/book-list'><span class="noDisplay">புத்தகங்கள் </span>நிலை 01</a>
+        <a routerLink ='/book-list'><span class="noDisplay">புத்தகங்கள் </span>நிலை 02</a>
+        <a routerLink ='/book-list'><span class="noDisplay">புத்தகங்கள் </span>நிலை 03</a>
+      </div>
+    </div>
+
     <a class="btn btn-color2 rounded-pill aniShake  aniRotateIcon" routerLink="/letters" routerLinkActive="active"><span
-        class="h4 "><i class="fas fa-book-open aniIcon"></i><span class="noDisplay"> 
+        class="h4 "><i class="fas fa-book-open aniIcon"></i><span class="noDisplay">
           எழுத பழகுவோம்
         </span></span></a>
-
   </div>
   <!-- <div class="ml-auto aniBigIcon" id="bigHelp">
     <a href="#" data-toggle="tooltip" title="Hi here we are to help" class="h5 help " routerLink="/help"> <span
